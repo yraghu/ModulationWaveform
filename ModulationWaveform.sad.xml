@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE softwareassembly PUBLIC "-//JTRS//DTD SCA V2.2.2 SAD//EN" "softwareassembly.dtd">
+<softwareassembly id="DCE:3ecbf29f-4bae-4eac-ad99-463268ccbad2" name="ModulationWaveform">
+  <description>Waveform demonstrating a PSK Modulation diagram.
+Will upsample and filter off the and shift the baseband signal up to a desired frequency. The assembly controller should be used to change values.</description>
+  <componentfiles>
+    <componentfile id="PSKBasebandMod_dd0bd3b1-84e6-4eec-b13d-e7fa7aa9e467" type="SPD">
+      <localfile name="/components/PSKBasebandMod/PSKBasebandMod.spd.xml"/>
+    </componentfile>
+    <componentfile id="UpZero_970dd815-fdc8-4b80-bae5-d3748dc449fb" type="SPD">
+      <localfile name="/components/UpZero/UpZero.spd.xml"/>
+    </componentfile>
+    <componentfile id="fastfilter_1db6f4de-c1ed-4c7c-ba3d-8539b505893d" type="SPD">
+      <localfile name="/components/fastfilter/fastfilter.spd.xml"/>
+    </componentfile>
+    <componentfile id="RealPart_0b5ae6d8-738f-4d85-bc7d-a06c6a492e7d" type="SPD">
+      <localfile name="/components/RealPart/RealPart.spd.xml"/>
+    </componentfile>
+    <componentfile id="ModulationAssemblyController_22621ba8-9ea5-4620-8771-43b41d430819" type="SPD">
+      <localfile name="/components/ModulationAssemblyController/ModulationAssemblyController.spd.xml"/>
+    </componentfile>
+    <componentfile id="FreqShift_c46407c1-8552-41da-857a-1b9f870dbd62" type="SPD">
+      <localfile name="/components/FreqShift/FreqShift.spd.xml"/>
+    </componentfile>
+  </componentfiles>
+  <partitioning>
+    <componentplacement>
+      <componentfileref refid="ModulationAssemblyController_22621ba8-9ea5-4620-8771-43b41d430819"/>
+      <componentinstantiation id="ModulationAssemblyController_1" startorder="0">
+        <usagename>ModulationAssemblyController_1</usagename>
+        <findcomponent>
+          <namingservice name="ModulationAssemblyController_1"/>
+        </findcomponent>
+      </componentinstantiation>
+    </componentplacement>
+    <componentplacement>
+      <componentfileref refid="PSKBasebandMod_dd0bd3b1-84e6-4eec-b13d-e7fa7aa9e467"/>
+      <componentinstantiation id="PSKBasebandMod_1" startorder="1">
+        <usagename>PSKBasebandMod_1</usagename>
+        <findcomponent>
+          <namingservice name="PSKBasebandMod_1"/>
+        </findcomponent>
+      </componentinstantiation>
+    </componentplacement>
+    <componentplacement>
+      <componentfileref refid="UpZero_970dd815-fdc8-4b80-bae5-d3748dc449fb"/>
+      <componentinstantiation id="UpZero_1" startorder="2">
+        <usagename>UpZero_1</usagename>
+        <findcomponent>
+          <namingservice name="UpZero_1"/>
+        </findcomponent>
+      </componentinstantiation>
+    </componentplacement>
+    <componentplacement>
+      <componentfileref refid="fastfilter_1db6f4de-c1ed-4c7c-ba3d-8539b505893d"/>
+      <componentinstantiation id="fastfilter_1" startorder="3">
+        <usagename>fastfilter_1</usagename>
+        <findcomponent>
+          <namingservice name="fastfilter_1"/>
+        </findcomponent>
+      </componentinstantiation>
+    </componentplacement>
+    <componentplacement>
+      <componentfileref refid="FreqShift_c46407c1-8552-41da-857a-1b9f870dbd62"/>
+      <componentinstantiation id="FreqShift_1" startorder="4">
+        <usagename>FreqShift_1</usagename>
+        <findcomponent>
+          <namingservice name="FreqShift_1"/>
+        </findcomponent>
+      </componentinstantiation>
+    </componentplacement>
+    <componentplacement>
+      <componentfileref refid="RealPart_0b5ae6d8-738f-4d85-bc7d-a06c6a492e7d"/>
+      <componentinstantiation id="RealPart_1" startorder="5">
+        <usagename>RealPart_1</usagename>
+        <findcomponent>
+          <namingservice name="RealPart_1"/>
+        </findcomponent>
+      </componentinstantiation>
+    </componentplacement>
+  </partitioning>
+  <assemblycontroller>
+    <componentinstantiationref refid="ModulationAssemblyController_1"/>
+  </assemblycontroller>
+  <connections>
+    <connectinterface id="connection_1">
+      <usesport>
+        <usesidentifier>mod_out</usesidentifier>
+        <componentinstantiationref refid="PSKBasebandMod_1"/>
+      </usesport>
+      <providesport>
+        <providesidentifier>dataFloat_In</providesidentifier>
+        <componentinstantiationref refid="UpZero_1"/>
+      </providesport>
+    </connectinterface>
+    <connectinterface id="connection_2">
+      <usesport>
+        <usesidentifier>dataFloat_Out</usesidentifier>
+        <componentinstantiationref refid="UpZero_1"/>
+      </usesport>
+      <providesport>
+        <providesidentifier>dataFloat_in</providesidentifier>
+        <componentinstantiationref refid="fastfilter_1"/>
+      </providesport>
+    </connectinterface>
+    <connectinterface id="connection_3">
+      <usesport>
+        <usesidentifier>dataFloat_out</usesidentifier>
+        <componentinstantiationref refid="fastfilter_1"/>
+      </usesport>
+      <providesport>
+        <providesidentifier>float_in</providesidentifier>
+        <componentinstantiationref refid="FreqShift_1"/>
+      </providesport>
+    </connectinterface>
+    <connectinterface id="connection_4">
+      <usesport>
+        <usesidentifier>float_out</usesidentifier>
+        <componentinstantiationref refid="FreqShift_1"/>
+      </usesport>
+      <providesport>
+        <providesidentifier>float_in</providesidentifier>
+        <componentinstantiationref refid="RealPart_1"/>
+      </providesport>
+    </connectinterface>
+    <connectinterface id="connection_5">
+      <usesport>
+        <usesidentifier>resrc</usesidentifier>
+        <componentinstantiationref refid="ModulationAssemblyController_1"/>
+      </usesport>
+      <componentsupportedinterface>
+        <supportedidentifier>IDL:CF/Resource:1.0</supportedidentifier>
+        <componentinstantiationref refid="PSKBasebandMod_1"/>
+      </componentsupportedinterface>
+    </connectinterface>
+    <connectinterface id="connection_6">
+      <usesport>
+        <usesidentifier>resrc</usesidentifier>
+        <componentinstantiationref refid="ModulationAssemblyController_1"/>
+      </usesport>
+      <componentsupportedinterface>
+        <supportedidentifier>IDL:CF/Resource:1.0</supportedidentifier>
+        <componentinstantiationref refid="UpZero_1"/>
+      </componentsupportedinterface>
+    </connectinterface>
+    <connectinterface id="connection_7">
+      <usesport>
+        <usesidentifier>resrc</usesidentifier>
+        <componentinstantiationref refid="ModulationAssemblyController_1"/>
+      </usesport>
+      <componentsupportedinterface>
+        <supportedidentifier>IDL:CF/Resource:1.0</supportedidentifier>
+        <componentinstantiationref refid="fastfilter_1"/>
+      </componentsupportedinterface>
+    </connectinterface>
+    <connectinterface id="connection_8">
+      <usesport>
+        <usesidentifier>resrc</usesidentifier>
+        <componentinstantiationref refid="ModulationAssemblyController_1"/>
+      </usesport>
+      <componentsupportedinterface>
+        <supportedidentifier>IDL:CF/Resource:1.0</supportedidentifier>
+        <componentinstantiationref refid="FreqShift_1"/>
+      </componentsupportedinterface>
+    </connectinterface>
+    <connectinterface id="connection_9">
+      <usesport>
+        <usesidentifier>resrc</usesidentifier>
+        <componentinstantiationref refid="ModulationAssemblyController_1"/>
+      </usesport>
+      <componentsupportedinterface>
+        <supportedidentifier>IDL:CF/Resource:1.0</supportedidentifier>
+        <componentinstantiationref refid="RealPart_1"/>
+      </componentsupportedinterface>
+    </connectinterface>
+  </connections>
+</softwareassembly>

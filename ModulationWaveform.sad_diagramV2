@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://sca.jpeojtrs.mil/diagram" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:partitioning="http://sca.jpeojtrs.mil/partitioning" xmlns:sad="http://sca.jpeojtrs.mil/sad" xmi:id="_Dhns0Q6aEeSc2M9e42QzUw" type="Sad" name="ModulationWaveform.sad_diagramV2" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_EuNssA6jEeSc2M9e42QzUw" type="3001" fontName="Sans">
+    <children xmi:type="notation:DecorationNode" xmi:id="_EuOTwA6jEeSc2M9e42QzUw" type="5006"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_EuOTwQ6jEeSc2M9e42QzUw" type="7002">
+      <children xmi:type="notation:Shape" xmi:id="_EuPh4A6jEeSc2M9e42QzUw" type="3002" fontName="Sans">
+        <children xmi:type="notation:DecorationNode" xmi:id="_EuPh4g6jEeSc2M9e42QzUw" type="5004"/>
+        <children xmi:type="notation:Node" xmi:id="_EuQI8A6jEeSc2M9e42QzUw" type="3003">
+          <children xmi:type="notation:DecorationNode" xmi:id="_EuQwBA6jEeSc2M9e42QzUw" type="5001">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_EuQwBQ6jEeSc2M9e42QzUw" y="5"/>
+          </children>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_EuQwAA6jEeSc2M9e42QzUw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_EuQwAQ6jEeSc2M9e42QzUw" fontName="Sans"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_EuQwAg6jEeSc2M9e42QzUw"/>
+          <element xmi:type="partitioning:UsesPortStub" href="ModulationWaveform.sad.xml#//@partitioning/@componentPlacement.0/@componentInstantiation.0/@uses.0"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EuQwAw6jEeSc2M9e42QzUw"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_EuQwBg6jEeSc2M9e42QzUw" type="3005">
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_EuQwBw6jEeSc2M9e42QzUw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_EuQwCA6jEeSc2M9e42QzUw" fontName="Sans"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_EuQwCQ6jEeSc2M9e42QzUw"/>
+          <element xmi:type="partitioning:ComponentSupportedInterfaceStub" href="ModulationWaveform.sad.xml#//@partitioning/@componentPlacement.0/@componentInstantiation.0/@interfaceStub"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EuQwCg6jEeSc2M9e42QzUw"/>
+        </children>
+        <element xmi:type="sad:SadComponentInstantiation" href="ModulationWaveform.sad.xml#ModulationAssemblyController_1"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EuPh4Q6jEeSc2M9e42QzUw"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_EuOTwg6jEeSc2M9e42QzUw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_EuOTww6jEeSc2M9e42QzUw"/>
+    </children>
+    <element xmi:type="sad:SadComponentPlacement" href="ModulationWaveform.sad.xml#//@partitioning/@componentPlacement.0"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EuNssQ6jEeSc2M9e42QzUw" y="528"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_FbcmIA6jEeSc2M9e42QzUw" type="3001" fontName="Sans">
+    <children xmi:type="notation:DecorationNode" xmi:id="_FbdNMA6jEeSc2M9e42QzUw" type="5006"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_FbdNMQ6jEeSc2M9e42QzUw" type="7002">
+      <children xmi:type="notation:Shape" xmi:id="_FbebUA6jEeSc2M9e42QzUw" type="3002" fontName="Sans">
+        <children xmi:type="notation:DecorationNode" xmi:id="_FbebUg6jEeSc2M9e42QzUw" type="5004"/>
+        <children xmi:type="notation:Node" xmi:id="_FbfpcA6jEeSc2M9e42QzUw" type="3003">
+          <children xmi:type="notation:DecorationNode" xmi:id="_FbfpdQ6jEeSc2M9e42QzUw" type="5001">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_Fbfpdg6jEeSc2M9e42QzUw" y="5"/>
+          </children>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_FbfpcQ6jEeSc2M9e42QzUw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_Fbfpcg6jEeSc2M9e42QzUw" fontName="Sans"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_Fbfpcw6jEeSc2M9e42QzUw"/>
+          <element xmi:type="partitioning:UsesPortStub" href="ModulationWaveform.sad.xml#//@partitioning/@componentPlacement.1/@componentInstantiation.0/@uses.0"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FbfpdA6jEeSc2M9e42QzUw"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_Fbfpdw6jEeSc2M9e42QzUw" type="3003">
+          <children xmi:type="notation:DecorationNode" xmi:id="_FbfpfA6jEeSc2M9e42QzUw" type="5001">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_FbgQgA6jEeSc2M9e42QzUw" y="5"/>
+          </children>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_FbfpeA6jEeSc2M9e42QzUw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_FbfpeQ6jEeSc2M9e42QzUw" fontName="Sans"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_Fbfpeg6jEeSc2M9e42QzUw"/>
+          <element xmi:type="partitioning:UsesPortStub" href="ModulationWaveform.sad.xml#//@partitioning/@componentPlacement.1/@componentInstantiation.0/@uses.1"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Fbfpew6jEeSc2M9e42QzUw"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_FbgQgQ6jEeSc2M9e42QzUw" type="3004">
+          <children xmi:type="notation:DecorationNode" xmi:id="_FbgQhg6jEeSc2M9e42QzUw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_FbgQhw6jEeSc2M9e42QzUw" y="5"/>
+          </children>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_FbgQgg6jEeSc2M9e42QzUw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_FbgQgw6jEeSc2M9e42QzUw" fontName="Sans"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_FbgQhA6jEeSc2M9e42QzUw"/>
+          <element xmi:type="partitioning:ProvidesPortStub" href="ModulationWaveform.sad.xml#//@partitioning/@componentPlacement.1/@componentInstantiation.0/@provides.0"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FbgQhQ6jEeSc2M9e42QzUw"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_FbgQiA6jEeSc2M9e42QzUw" type="3005">
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_FbgQiQ6jEeSc2M9e42QzUw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_FbgQig6jEeSc2M9e42QzUw" fontName="Sans"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_FbgQiw6jEeSc2M9e42QzUw"/>
+          <element xmi:type="partitioning:ComponentSupportedInterfaceStub" href="ModulationWaveform.sad.xml#//@partitioning/@componentPlacement.1/@componentInstantiation.0/@interfaceStub"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FbgQjA6jEeSc2M9e42QzUw"/>
+        </children>
+        <element xmi:type="sad:SadComponentInstantiation" href="ModulationWaveform.sad.xml#PSKBasebandMod_1"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FbebUQ6jEeSc2M9e42QzUw"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_FbdNMg6jEeSc2M9e42QzUw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_FbdNMw6jEeSc2M9e42QzUw"/>
+    </children>
+    <element xmi:type="sad:SadComponentPlacement" href="ModulationWaveform.sad.xml#//@partitioning/@componentPlacement.1"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FbcmIQ6jEeSc2M9e42QzUw" x="432" y="240"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_GLT80A6jEeSc2M9e42QzUw" type="3001" fontName="Sans">
+    <children xmi:type="notation:DecorationNode" xmi:id="_GLUj4A6jEeSc2M9e42QzUw" type="5006"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_GLUj4Q6jEeSc2M9e42QzUw" type="7002">
+      <children xmi:type="notation:Shape" xmi:id="_GLVyAA6jEeSc2M9e42QzUw" type="3002" fontName="Sans">
+        <children xmi:type="notation:DecorationNode" xmi:id="_GLVyAg6jEeSc2M9e42QzUw" type="5004"/>
+        <children xmi:type="notation:Node" xmi:id="_GLXAIA6jEeSc2M9e42QzUw" type="3003">
+          <children xmi:type="notation:DecorationNode" xmi:id="_GLXAJQ6jEeSc2M9e42QzUw" type="5001">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_GLXAJg6jEeSc2M9e42QzUw" y="5"/>
+          </children>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_GLXAIQ6jEeSc2M9e42QzUw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_GLXAIg6jEeSc2M9e42QzUw" fontName="Sans"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_GLXAIw6jEeSc2M9e42QzUw"/>
+          <element xmi:type="partitioning:UsesPortStub" href="ModulationWaveform.sad.xml#//@partitioning/@componentPlacement.2/@componentInstantiation.0/@uses.0"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GLXAJA6jEeSc2M9e42QzUw"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_GLXAJw6jEeSc2M9e42QzUw" type="3004">
+          <children xmi:type="notation:DecorationNode" xmi:id="_GLXALA6jEeSc2M9e42QzUw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_GLXALQ6jEeSc2M9e42QzUw" y="5"/>
+          </children>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_GLXAKA6jEeSc2M9e42QzUw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_GLXAKQ6jEeSc2M9e42QzUw" fontName="Sans"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_GLXAKg6jEeSc2M9e42QzUw"/>
+          <element xmi:type="partitioning:ProvidesPortStub" href="ModulationWaveform.sad.xml#//@partitioning/@componentPlacement.2/@componentInstantiation.0/@provides.0"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GLXAKw6jEeSc2M9e42QzUw"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_GLXnMA6jEeSc2M9e42QzUw" type="3005">
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_GLXnMQ6jEeSc2M9e42QzUw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_GLXnMg6jEeSc2M9e42QzUw" fontName="Sans"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_GLXnMw6jEeSc2M9e42QzUw"/>
+          <element xmi:type="partitioning:ComponentSupportedInterfaceStub" href="ModulationWaveform.sad.xml#//@partitioning/@componentPlacement.2/@componentInstantiation.0/@interfaceStub"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GLXnNA6jEeSc2M9e42QzUw"/>
+        </children>
+        <element xmi:type="sad:SadComponentInstantiation" href="ModulationWaveform.sad.xml#UpZero_1"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GLVyAQ6jEeSc2M9e42QzUw"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_GLUj4g6jEeSc2M9e42QzUw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_GLUj4w6jEeSc2M9e42QzUw"/>
+    </children>
+    <element xmi:type="sad:SadComponentPlacement" href="ModulationWaveform.sad.xml#//@partitioning/@componentPlacement.2"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GLT80Q6jEeSc2M9e42QzUw" x="816" y="240"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_HODMMA6jEeSc2M9e42QzUw" type="3001" fontName="Sans">
+    <children xmi:type="notation:DecorationNode" xmi:id="_HODMMg6jEeSc2M9e42QzUw" type="5006"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_HODMMw6jEeSc2M9e42QzUw" type="7002">
+      <children xmi:type="notation:Shape" xmi:id="_HOEaUA6jEeSc2M9e42QzUw" type="3002" fontName="Sans">
+        <children xmi:type="notation:DecorationNode" xmi:id="_HOEaUg6jEeSc2M9e42QzUw" type="5004"/>
+        <children xmi:type="notation:Node" xmi:id="_HOFocA6jEeSc2M9e42QzUw" type="3003">
+          <children xmi:type="notation:DecorationNode" xmi:id="_HOFodQ6jEeSc2M9e42QzUw" type="5001">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_HOFodg6jEeSc2M9e42QzUw" y="5"/>
+          </children>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_HOFocQ6jEeSc2M9e42QzUw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_HOFocg6jEeSc2M9e42QzUw" fontName="Sans"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_HOFocw6jEeSc2M9e42QzUw"/>
+          <element xmi:type="partitioning:UsesPortStub" href="ModulationWaveform.sad.xml#//@partitioning/@componentPlacement.3/@componentInstantiation.0/@uses.0"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HOFodA6jEeSc2M9e42QzUw"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_HOGPgA6jEeSc2M9e42QzUw" type="3004">
+          <children xmi:type="notation:DecorationNode" xmi:id="_HOGPhQ6jEeSc2M9e42QzUw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_HOGPhg6jEeSc2M9e42QzUw" y="5"/>
+          </children>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_HOGPgQ6jEeSc2M9e42QzUw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_HOGPgg6jEeSc2M9e42QzUw" fontName="Sans"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_HOGPgw6jEeSc2M9e42QzUw"/>
+          <element xmi:type="partitioning:ProvidesPortStub" href="ModulationWaveform.sad.xml#//@partitioning/@componentPlacement.3/@componentInstantiation.0/@provides.0"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HOGPhA6jEeSc2M9e42QzUw"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_HOGPhw6jEeSc2M9e42QzUw" type="3005">
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_HOGPiA6jEeSc2M9e42QzUw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_HOGPiQ6jEeSc2M9e42QzUw" fontName="Sans"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_HOGPig6jEeSc2M9e42QzUw"/>
+          <element xmi:type="partitioning:ComponentSupportedInterfaceStub" href="ModulationWaveform.sad.xml#//@partitioning/@componentPlacement.3/@componentInstantiation.0/@interfaceStub"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HOGPiw6jEeSc2M9e42QzUw"/>
+        </children>
+        <element xmi:type="sad:SadComponentInstantiation" href="ModulationWaveform.sad.xml#fastfilter_1"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HOEaUQ6jEeSc2M9e42QzUw"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_HODMNA6jEeSc2M9e42QzUw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_HODMNQ6jEeSc2M9e42QzUw"/>
+    </children>
+    <element xmi:type="sad:SadComponentPlacement" href="ModulationWaveform.sad.xml#//@partitioning/@componentPlacement.3"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HODMMQ6jEeSc2M9e42QzUw" x="1104" y="240"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_H2zOQA6jEeSc2M9e42QzUw" type="3001" fontName="Sans">
+    <children xmi:type="notation:DecorationNode" xmi:id="_H2zOQg6jEeSc2M9e42QzUw" type="5006"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_H2zOQw6jEeSc2M9e42QzUw" type="7002">
+      <children xmi:type="notation:Shape" xmi:id="_H20cYA6jEeSc2M9e42QzUw" type="3002" fontName="Sans">
+        <children xmi:type="notation:DecorationNode" xmi:id="_H20cYg6jEeSc2M9e42QzUw" type="5004"/>
+        <children xmi:type="notation:Node" xmi:id="_H21qgA6jEeSc2M9e42QzUw" type="3003">
+          <children xmi:type="notation:DecorationNode" xmi:id="_H22RkA6jEeSc2M9e42QzUw" type="5001">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_H22RkQ6jEeSc2M9e42QzUw" y="5"/>
+          </children>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_H21qgQ6jEeSc2M9e42QzUw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_H21qgg6jEeSc2M9e42QzUw" fontName="Sans"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_H21qgw6jEeSc2M9e42QzUw"/>
+          <element xmi:type="partitioning:UsesPortStub" href="ModulationWaveform.sad.xml#//@partitioning/@componentPlacement.4/@componentInstantiation.0/@uses.0"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_H21qhA6jEeSc2M9e42QzUw"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_H22Rkg6jEeSc2M9e42QzUw" type="3004">
+          <children xmi:type="notation:DecorationNode" xmi:id="_H22Rlw6jEeSc2M9e42QzUw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_H22RmA6jEeSc2M9e42QzUw" y="5"/>
+          </children>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_H22Rkw6jEeSc2M9e42QzUw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_H22RlA6jEeSc2M9e42QzUw" fontName="Sans"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_H22RlQ6jEeSc2M9e42QzUw"/>
+          <element xmi:type="partitioning:ProvidesPortStub" href="ModulationWaveform.sad.xml#//@partitioning/@componentPlacement.4/@componentInstantiation.0/@provides.0"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_H22Rlg6jEeSc2M9e42QzUw"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_H22RmQ6jEeSc2M9e42QzUw" type="3005">
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_H22Rmg6jEeSc2M9e42QzUw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_H22Rmw6jEeSc2M9e42QzUw" fontName="Sans"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_H22RnA6jEeSc2M9e42QzUw"/>
+          <element xmi:type="partitioning:ComponentSupportedInterfaceStub" href="ModulationWaveform.sad.xml#//@partitioning/@componentPlacement.4/@componentInstantiation.0/@interfaceStub"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_H22RnQ6jEeSc2M9e42QzUw"/>
+        </children>
+        <element xmi:type="sad:SadComponentInstantiation" href="ModulationWaveform.sad.xml#FreqShift_1"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_H20cYQ6jEeSc2M9e42QzUw"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_H2zORA6jEeSc2M9e42QzUw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_H2zORQ6jEeSc2M9e42QzUw"/>
+    </children>
+    <element xmi:type="sad:SadComponentPlacement" href="ModulationWaveform.sad.xml#//@partitioning/@componentPlacement.4"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_H2zOQQ6jEeSc2M9e42QzUw" x="1392" y="240"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_JgoS0A6jEeSc2M9e42QzUw" type="3001" fontName="Sans">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Jgo54A6jEeSc2M9e42QzUw" type="5006"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_Jgo54Q6jEeSc2M9e42QzUw" type="7002">
+      <children xmi:type="notation:Shape" xmi:id="_JgqIAA6jEeSc2M9e42QzUw" type="3002" fontName="Sans">
+        <children xmi:type="notation:DecorationNode" xmi:id="_JgqIAg6jEeSc2M9e42QzUw" type="5004"/>
+        <children xmi:type="notation:Node" xmi:id="_JgrWIA6jEeSc2M9e42QzUw" type="3003">
+          <children xmi:type="notation:DecorationNode" xmi:id="_JgrWJQ6jEeSc2M9e42QzUw" type="5001">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_JgrWJg6jEeSc2M9e42QzUw" y="5"/>
+          </children>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_JgrWIQ6jEeSc2M9e42QzUw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_JgrWIg6jEeSc2M9e42QzUw" fontName="Sans"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_JgrWIw6jEeSc2M9e42QzUw"/>
+          <element xmi:type="partitioning:UsesPortStub" href="ModulationWaveform.sad.xml#//@partitioning/@componentPlacement.5/@componentInstantiation.0/@uses.0"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JgrWJA6jEeSc2M9e42QzUw"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_JgrWJw6jEeSc2M9e42QzUw" type="3004">
+          <children xmi:type="notation:DecorationNode" xmi:id="_Jgr9MA6jEeSc2M9e42QzUw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_Jgr9MQ6jEeSc2M9e42QzUw" y="5"/>
+          </children>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_JgrWKA6jEeSc2M9e42QzUw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_JgrWKQ6jEeSc2M9e42QzUw" fontName="Sans"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_JgrWKg6jEeSc2M9e42QzUw"/>
+          <element xmi:type="partitioning:ProvidesPortStub" href="ModulationWaveform.sad.xml#//@partitioning/@componentPlacement.5/@componentInstantiation.0/@provides.0"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JgrWKw6jEeSc2M9e42QzUw"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_Jgr9Mg6jEeSc2M9e42QzUw" type="3005">
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_Jgr9Mw6jEeSc2M9e42QzUw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_Jgr9NA6jEeSc2M9e42QzUw" fontName="Sans"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_Jgr9NQ6jEeSc2M9e42QzUw"/>
+          <element xmi:type="partitioning:ComponentSupportedInterfaceStub" href="ModulationWaveform.sad.xml#//@partitioning/@componentPlacement.5/@componentInstantiation.0/@interfaceStub"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Jgr9Ng6jEeSc2M9e42QzUw"/>
+        </children>
+        <element xmi:type="sad:SadComponentInstantiation" href="ModulationWaveform.sad.xml#RealPart_1"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JgqIAQ6jEeSc2M9e42QzUw"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_Jgo54g6jEeSc2M9e42QzUw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_Jgo54w6jEeSc2M9e42QzUw"/>
+    </children>
+    <element xmi:type="sad:SadComponentPlacement" href="ModulationWaveform.sad.xml#//@partitioning/@componentPlacement.5"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JgoS0Q6jEeSc2M9e42QzUw" x="1680" y="240"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_Dho68A6aEeSc2M9e42QzUw"/>
+  <styles xmi:type="diagram:EObjectContainerStyle" xmi:id="_Dho68Q6aEeSc2M9e42QzUw" name="FindByStubContainer"/>
+  <element xmi:type="sad:SoftwareAssembly" href="ModulationWaveform.sad.xml#DCE:3ecbf29f-4bae-4eac-ad99-463268ccbad2"/>
+  <edges xmi:type="notation:Connector" xmi:id="_MKvIoA6jEeSc2M9e42QzUw" type="4001" source="_Fbfpdw6jEeSc2M9e42QzUw" target="_GLXAJw6jEeSc2M9e42QzUw" routing="Rectilinear" avoidObstructions="true">
+    <styles xmi:type="notation:FontStyle" xmi:id="_MKvIoQ6jEeSc2M9e42QzUw" fontName="Sans"/>
+    <element xmi:type="sad:SadConnectInterface" href="ModulationWaveform.sad.xml#connection_1"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_MKvIog6jEeSc2M9e42QzUw" points="[8, 1, -106, -17]$[114, 18, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_NUNSIA6jEeSc2M9e42QzUw" type="4001" source="_GLXAIA6jEeSc2M9e42QzUw" target="_HOGPgA6jEeSc2M9e42QzUw" routing="Rectilinear" avoidObstructions="true">
+    <styles xmi:type="notation:FontStyle" xmi:id="_NUNSIQ6jEeSc2M9e42QzUw" fontName="Sans"/>
+    <element xmi:type="sad:SadConnectInterface" href="ModulationWaveform.sad.xml#connection_2"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_NUNSIg6jEeSc2M9e42QzUw" points="[8, 2, -55, -16]$[63, 18, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_QP-fsA6jEeSc2M9e42QzUw" type="4001" source="_HOFocA6jEeSc2M9e42QzUw" target="_H22Rkg6jEeSc2M9e42QzUw" routing="Rectilinear" avoidObstructions="true">
+    <styles xmi:type="notation:FontStyle" xmi:id="_QP-fsQ6jEeSc2M9e42QzUw" fontName="Sans"/>
+    <element xmi:type="sad:SadConnectInterface" href="ModulationWaveform.sad.xml#connection_3"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_QP-fsg6jEeSc2M9e42QzUw" points="[8, 2, -55, -16]$[63, 18, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_Qb4NsA6jEeSc2M9e42QzUw" type="4001" source="_H21qgA6jEeSc2M9e42QzUw" target="_JgrWJw6jEeSc2M9e42QzUw" routing="Rectilinear" avoidObstructions="true">
+    <styles xmi:type="notation:FontStyle" xmi:id="_Qb4NsQ6jEeSc2M9e42QzUw" fontName="Sans"/>
+    <element xmi:type="sad:SadConnectInterface" href="ModulationWaveform.sad.xml#connection_4"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Qb4Nsg6jEeSc2M9e42QzUw" points="[8, 2, -63, -16]$[71, 18, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_RfiqIA6jEeSc2M9e42QzUw" type="4001" source="_EuQI8A6jEeSc2M9e42QzUw" target="_FbgQiA6jEeSc2M9e42QzUw" routing="Rectilinear" avoidObstructions="true">
+    <styles xmi:type="notation:FontStyle" xmi:id="_RfiqIQ6jEeSc2M9e42QzUw" fontName="Sans"/>
+    <element xmi:type="sad:SadConnectInterface" href="ModulationWaveform.sad.xml#connection_5"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_RfiqIg6jEeSc2M9e42QzUw" points="[2, -7, -81, 283]$[83, -290, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_S4CuIA6jEeSc2M9e42QzUw" type="4001" source="_EuQI8A6jEeSc2M9e42QzUw" target="_GLXnMA6jEeSc2M9e42QzUw" routing="Rectilinear" avoidObstructions="true">
+    <styles xmi:type="notation:FontStyle" xmi:id="_S4CuIQ6jEeSc2M9e42QzUw" fontName="Sans"/>
+    <element xmi:type="sad:SadConnectInterface" href="ModulationWaveform.sad.xml#connection_6"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_S4CuIg6jEeSc2M9e42QzUw" points="[8, -5, -459, 285]$[467, -290, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_ThyOsA6jEeSc2M9e42QzUw" type="4001" source="_EuQI8A6jEeSc2M9e42QzUw" target="_HOGPhw6jEeSc2M9e42QzUw" routing="Rectilinear" avoidObstructions="true">
+    <styles xmi:type="notation:FontStyle" xmi:id="_ThyOsQ6jEeSc2M9e42QzUw" fontName="Sans"/>
+    <element xmi:type="sad:SadConnectInterface" href="ModulationWaveform.sad.xml#connection_7"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ThyOsg6jEeSc2M9e42QzUw" points="[8, -3, -747, 287]$[755, -290, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_UiHqUA6jEeSc2M9e42QzUw" type="4001" source="_EuQI8A6jEeSc2M9e42QzUw" target="_H22RmQ6jEeSc2M9e42QzUw" routing="Rectilinear" avoidObstructions="true">
+    <styles xmi:type="notation:FontStyle" xmi:id="_UiHqUQ6jEeSc2M9e42QzUw" fontName="Sans"/>
+    <element xmi:type="sad:SadConnectInterface" href="ModulationWaveform.sad.xml#connection_8"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_UiHqUg6jEeSc2M9e42QzUw" points="[8, -3, -1035, 287]$[1043, -290, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_Vjzw0A6jEeSc2M9e42QzUw" type="4001" source="_EuQI8A6jEeSc2M9e42QzUw" target="_Jgr9Mg6jEeSc2M9e42QzUw" routing="Rectilinear" avoidObstructions="true">
+    <styles xmi:type="notation:FontStyle" xmi:id="_Vjzw0Q6jEeSc2M9e42QzUw" fontName="Sans"/>
+    <element xmi:type="sad:SadConnectInterface" href="ModulationWaveform.sad.xml#connection_9"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Vjzw0g6jEeSc2M9e42QzUw" points="[8, -3, -1323, 287]$[1331, -290, 0, 0]"/>
+  </edges>
+</notation:Diagram>
